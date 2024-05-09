@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(https://g.vseigru.net/14/igra-neonovye-krestiki-noliki/img/menu_back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.game{
+    height:30vmin;
+    width: 40vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2vmin;
+}
+
+.box{
+    height: 10vmin;
+    width: 10vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem #39ff14;;
+    font-size: 8vmin;
+    color: #FFFF33;
+    background: none;
+    gap: 2rem;
+}
+
+#reset_btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #39FF14;
+    color: #120a3d;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem #39ff14;
+}
+
+#new_btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    box-shadow: 0 0 1rem #39ff14;
+    color: #120a3d;
+    border-radius: 1rem;
+    border: none;
+    background-color: #39ff14;
+}
+
+#msg{
+    color: #FFFF33;
+    font-size: 8vmin;
+    padding-bottom: 2vmin;
+}
+
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.hide{
+    display: none;
+} 
+
